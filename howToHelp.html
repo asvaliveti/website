@@ -21,6 +21,20 @@
         margin: 4px 2px;
         cursor: pointer;
       }
+      * {
+        box-sizing: border-box;
+      }
+      .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
     </style>
   </head>
   <body style="background-color: #ebffff;">
@@ -30,6 +44,26 @@
       <a href="importance.html"><button type="button" align="center" class="button">Importance</button></a>
       <a href="updates.html"><button type="button" align="center" class="button">Updates</button></a>
       <a href="aboutMe.html"><button type="button" align="center" class="button">About Me</button></a>
+    </div>
+    <div class="row">
+      <div class="column">
+        <h2>Producers</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRhwk80WJVGUwbzU5v6ogLoMGnrRyLmNqXas9OUy_2fNn1Cw9FY" alt="www.fairobserver.com" height=300px width=500px>
+            <ul>Sell excess inventory for cheaper.</ul>
+            <ul>Predict trends of sales and use that data to avoid overproduction.</ul>
+            <ul>Encourage consumers to make smarter choices.</ul>
+            <ul>Use smarter cutting tools that avoid creating excess waste. </ul>
+            <ul>Use campaigns like H&M and Marks and Spencer that encourage customers to donate clothes.</ul>
+      </div>
+      <div class="column">
+        <h2>Consumers</h2>
+        <img src="https://blueocean.net/wp-content/uploads/2019/01/fast-fashion-Ecouterre.jpg" alt="blueocean.net" height=300px width=500px>
+            <ul>Swap and share- Trade with your friends, family and others so everyone has something new without having to buy the same products again. Another way could be to pass on clothes and use hand-me-downs.</ul>
+            <ul>Re-fashion- Look up ways you can DIY your clothes and upcycle them to produce something better. Or you could use those clothes to produce something else like maybe a pillowcase. </ul>
+            <ul>Make Profits- Sell your old clothes online, and make sure they are in a wearable condition, because one man's waste can be another man's treasure. </ul>
+            <ul>Donate- Many large fashion retailers such as H&M and Marks and Spencer have bins where you can donate your old clothes and in return get discounts on new purchases or a few other offers. Or give back to the community by donating some of your clothes to orphanages or charity organisations. </ul>
+            <ul>Last string- Use each and every piece of cloth until it is absolutely worn out. Use torn clothes as rags to clean the house. Use old faded shirts and pants as pajamas. </ul>
+      </div>
     </div>
   </body>
 </html>
